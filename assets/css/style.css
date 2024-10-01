@@ -1,7 +1,22 @@
-body, h1,h2,h3,h4,h5,h6 {
-    font-family: "Montserrat", sans-serif;
-}
 
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.w3-sidebar .w3-bar-item p {
+    font-size: 18px !important; 
+  }
+p{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#myNavbar .w3-bar-item {
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+{
 .w3-row-padding img {
     margin-bottom: 12px;
 }
