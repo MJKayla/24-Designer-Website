@@ -208,20 +208,28 @@
     </div>
   </div>
 
-  <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-black" id="contact">
-    <h2 class="w3-text-black">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <form action="/action_page.php" target="_blank">
+<!-- Contact Section -->
+<div class="w3-padding-64 w3-content w3-text-black" id="contact">
+  <h2 class="w3-text-black">Contact Me</h2>
+  <hr style="width:200px" class="w3-opacity">
+  
+  <!-- Form -->
+  <form id="contactForm">
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
       <p><button class="w3-button w3-light-grey w3-padding-large" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
       </button></p>
-    </form>
+  </form>
+
+  <!-- Thank You Message -->
+  <div id="thankYouMessage" style="display:none;">
+      <h3>Thank you for your message!</h3>
+      <p>We will get back to you shortly.</p>
   </div>
+</div>
   
   <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
@@ -236,5 +244,6 @@
 </div>
 
 <script src="https://kit.fontawesome.com/27ca1f0811.js" crossorigin="anonymous"></script>
+<script src="assets/js/scritpt.js"></script>
 </body>
 </html>
