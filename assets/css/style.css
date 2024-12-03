@@ -17,15 +17,21 @@ p{
     font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-{
+}
 .w3-row-padding img {
     margin-bottom: 12px;
 }
-
+caption, figcaption {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    text-align: center; /* Optional: center align the caption */
+  }
 /* Set the width of the sidebar to 120px */
 .w3-sidebar {
     width: 120px;
-    background: #222;
+    background: #ffffff;
 }
 
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
